@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
         <p>
-          Bruno César Angst
+          Site do Bruno César Angst
         </p>
     </div>
   );
