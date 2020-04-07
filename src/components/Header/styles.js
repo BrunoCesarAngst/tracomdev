@@ -9,7 +9,7 @@ export const Container = styled.header`
   // justify-content: space-between;
   align-items: center;
   // margin: 50px 0;
-  background: ${colors.greyA};
+  background-color: ${colors.greyA};
   padding: 15px;
 `;
 
