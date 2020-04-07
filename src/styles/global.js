@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
+import colors from './colors';
+
 // dando estilo ao toastify
 // import 'react-toastify/dist/ReactToastify.css';
 
@@ -14,17 +16,20 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
-  // tirando o azulzinho do input e button
   *:focus {
-    outline: 0;
   }
-  // para ocupara altura máxima da tela
+
+  #root {
+    margin: 0 auto;
+  }
+
   html, body, #root {
     height: 100%;
   }
 
   body {
     -webkit-font-smoothing: antialiased;
+    background: linear-gradient(-90deg, ${colors.blueA}, ${colors.greenB});
   }
 
   body, input, button {
@@ -36,12 +41,6 @@ export default createGlobalStyle`
   }
   ul {
     list-style: none;
-  }
-
-  #root {
-    max-width: 1020px;
-    margin: 0 auto;
-    padding: 0 20px 50px;
   }
 
   button {
