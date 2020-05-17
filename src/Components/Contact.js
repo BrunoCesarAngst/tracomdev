@@ -41,17 +41,17 @@ class Contact extends Component {
 
                   <div>
 						   <label htmlFor="contactName">Nome <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" /* onChange={this.handleChange} *//>
                   </div>
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" /* onChange={this.handleChange} *//>
                   </div>
 
                   <div>
 						   <label htmlFor="contactSubject">Assunto</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" /* onChange={this.handleChange} *//>
                   </div>
 
                   <div>
@@ -60,10 +60,10 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                     <button className="submit">Enviar</button>
-                     <span id="image-loader">
+                     <button className="submit" type="submit">Enviar</button>
+                     {/* <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
-                     </span>
+                     </span> */}
                   </div>
 					</fieldset>
 				   </form>
