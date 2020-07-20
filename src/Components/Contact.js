@@ -94,16 +94,16 @@ class Contact extends Component {
                      <li>
                         <span>
                         Esta é a versão do lorem ipsum do Photoshop. Nibh microondas grávida ou autor ao ar livre de bananas. Aenean sollicitudin, lorem quis bibendum auctor, não é consequente ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        <a href="">http://t.co/CGIrdxIlI3</a>
                         </span>
-                        <b><a href="#">2 Days Ago</a></b>
+                        <b><a href="">2 Days Ago</a></b>
                      </li>
                      <li>
                         <span>
                         Mas devo explicar-lhe como nasceu toda essa idéia equivocada de denunciar o prazer e louvar a dor, um relato completo do sistema e expor os ensinamentos reais do grande explorador da verdade e, por assim dizer
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        <a href="">http://t.co/CGIrdxIlI3</a>
                         </span>
-                        <b><a href="#">3 Days Ago</a></b>
+                        <b><a href="">3 Days Ago</a></b>
                      </li>
                   </ul>
 		         </div>
