@@ -1,0 +1,111 @@
+{
+  "main": {
+    "name":"Bruno César Angst",
+    "occupation":"Desenvolvedor FullStack JavaScript",
+    "description":"Sou um estudante de Análise e Desenvolvimento de Sistemas, querendo incluir tecnologia em tudo!",
+    "image":"eueu.png",
+    "bio":"Marido, pai, nerd e insistente. Curto transformar tudo em código e ver o que acontece!",
+    "contactmessage":"Como posso lhe ajudar?",
+    "email": "bruno.angst@rede.ulbra.br",
+    "phone": "(51) 997 056 861",
+    "address":{
+      "street":"Rua Rolante",
+      "city":"Arroio do Sal",
+      "state":"Rio Grande do Sul",
+      "zip": "95585-000"
+    },
+    "website": "https://www.trabalhocomodev.com",
+    "resumedownload":"https://trabalhocomodev.com",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/bruno.angst.71",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/AngstBruno",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/bruno-angst-ab9663169/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/brunoangst/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/BrunoCesarAngst",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"https://join.skype.com/invite/tetxeQmtEIYq",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Sou um desenvolvedor em formação e estou pronto para aprender",
+    "education":[
+      {
+        "school":"Universidade Luterana do Brasil - ULBRA/Torres-RS",
+        "degree":"Análise e desenvolvimento de Sistemas",
+        "graduated":"Julho 2021",
+        "description":"Ser capaz de desenvolver, analisar, projetar, implementar e atualizar sistemas de informação para diversos setores de atividades."
+      }
+    ],
+    "work":[
+      {
+        "company":"Buscando oportunidades",
+        "title":" ",
+        "years":" ",
+        "description":" "
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"80%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"60%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Em construção",
+        "category":"Em construção",
+        "image":"Em construção",
+        "url":"Em construção"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Buscando a experiência.",
+        "user":"Seja o primeiro"
+      }
+    ]
+  }
+}
