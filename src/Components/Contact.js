@@ -36,7 +36,7 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form method="post" id="contactForm" name="contactForm" data-netlify="true" data-netlify-honeypot="bot-field" netlify>
+               <form name="contactForm" method="POST" data-netlify="true" id="contactForm">
                <input type="hidden" name="form-name" value="contactForm" />
 					<fieldset>
 
@@ -59,6 +59,8 @@ class Contact extends Component {
                      <label htmlFor="contactMessage">Mensagem <span className="required">*</span></label>
                      <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
                   </div>
+	    
+	    	  <div data-netlify-recaptcha="true"></div>
 
                   <div>
                      <button className="submit" type="submit">Enviar</button>
